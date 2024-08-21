@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <div id="loader">
+        <div class='d-flex justify-content-center align-items-center' style="min-height: 100vh; background: black">
+            <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+                <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000"
+                    stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+                <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000"
+                    stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+                <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20"
+                    stroke-dasharray="0 440" stroke-linecap="round"></circle>
+                <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000"
+                    stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+    </div>
+    <div id="main-div">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light w-100 position-fixed" id="nav" style="background-color:  #6b3297;">
+                <div class="container">
+                    <button class="navbar-brand border-0" style="background: transparent" href="#home">Awais</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="border-0" id="night-mode" onclick="nightMode()"
+                                    style="background: transparent;"><img class="icon mt-2" style="height: 25px;"
+                                        src="assets/night-mode.png" alt=""></button>
+                                <button class="border-0" id="light-mode" onclick="lightMode()"
+                                    style="background: transparent;"><img class="icon mt-2" style="height: 25px;"
+                                        src="assets/sun.png" alt=""></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <!-- ----------------------DIV 1------------------------ -->
+            <div class="div1"
+                style="background-image: url(assets/download.jpeg);background-repeat: no-repeat;background-size: cover; height: 600px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-white" style="margin-top: 150px;">
+                            <h2>Hey,</h2>
+                            <h1>I'm Muhammad Awais</h1>
+                            <h1>Frontend-Developer</h1>
+                            <div class="d-flex mt-3">
+                                <button class="portfolioBtn border-0 px-3 fw-bold" id="portfolioBtn"
+                                    style="height: 45px; background-color:  #6b3297;">
+                                    <a class="text-dark text-decoration-none ms-2" href="#projects">Portfolio</a>
+                                </button>
+                                <button class="border-0 ms-5" style="background: transparent; font-weight: bold;">
+                                    <a href="#contact" class="text-light text-decoration-none">Contact me</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------------DIV 2------------------------ -->
+            <div class="div2" style="margin-top: 90px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-center">
+                                <h2 class="text-decoration-underline" id="about" style="color: #6b3297">About Me</h2>
+                                <p class="p-3">
+                                    As a skilled frontend developer, <b>Muhammad Awais</b> brings creativity and
+                                    expertise
+                                    to
+                                    the world
+                                    of web development. With a strong foundation in HTML, CSS, and JavaScript, I
+                                    crafts intuitive and visually stunning user interfaces that elevate the online
+                                    presence
+                                    of
+                                    clients and businesses alike. Whether working with popular frameworks like React or
+                                    Vue.js,
+                                    or pushing the boundaries of responsive design, I remains dedicated to
+                                    delivering
+                                    high-quality solutions that exceed expectations. With a passion for staying
+                                    up-to-date
+                                    on
+                                    the latest industry trends and technologies, I continues to grow and
+                                    evolve as a
+                                    talented frontend developer, making a lasting impact in the digital landscape.</p>
+                                <p>In the other hand, I am a fast learner, responsible, ready for hard
+                                    tasks. If I don't know
+                                    something, I will
+                                    make every effort to understand and become a specialist. Also, I want to have a
+                                    possibility
+                                    to improve my English skills. I'll be happy to answer the questions and complete the
+                                    test
+                                    task.</p>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <h4 style="color:  #6b3297;" id="heading1">HTML/CSS</h4>
+                                    <ul>
+                                        <li>Experience with HTML5/CSS3.</li>
+                                        <li>Experience with CSS framework Bootstrap.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <h4 style="color:  #6b3297;" id="heading2">JavaScript</h4>
+                                    <ul>
+                                        <li>Experience with Java Script</li>
+                                        <li>Experience with Java Script (ES6+) too.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <h4 style="color:  #6b3297;" id="heading3">Others</h4>
+                                    <ul>
+                                        <li>Experience with C++.</li>
+                                        <li>Have skills in Git & Github.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <!----------------------DIV 3------------------------ -->
+            <div class="div3">
+                <div class="container text-center mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-decoration-underline" id="skills" style="color: #6b3297">Skills</h2>
+                            <h4 class="mt-3">The Things That I Have Experienced & Used</h4>
+                            <div class="container">
+                                <div class="row mt-5">
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/html.png" id="img-size" alt="icon">
+                                            <h6>HTML5</h6>
+                                            <p class="p-3">
+                                                HTML5 is a system that allows the modification of the appearance of web
+                                                pages, as well as making adjustments to their appearance. It also used
+                                                to structure
+                                                and present content for the web.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/css.png" id="img-size" alt="icon">
+                                            <h6>CSS3</h6>
+                                            <p class="p-3">
+                                                "CSS3 is a styling language that enables developers to create visually
+                                                stunning, responsive,
+                                                and interactive web designs with its advanced features like animations,
+                                                gradients, and media
+                                                queries."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/bootstrap.jpeg" id="img-size" alt="icon">
+                                            <h6>Bootstrap</h6>
+                                            <p class="p-3">
+                                                Bootstrap enables to rapidly build responsive and mobile-first
+                                                interfaces,
+                                                streamlining the development process. Its pre-built components & grid
+                                                system
+                                                allows easy customization in design.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/js.png" id="img-size" alt="icon">
+                                            <h6>JavaScript</h6>
+                                            <p class="p-3">
+                                                JavaScript is a dynamic programming language that enables
+                                                developers to create interactive and engaging web experiences. It a
+                                                popular choice among developers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/git.png" id="img-size" alt="icon">
+                                            <h6>Git</h6>
+                                            <p class="p-3">
+                                                Git is a distributed version-control system for tracking changes in any
+                                                set
+                                                of files, designed for coordinating work cooperating on source code
+                                                during
+                                                software development.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                        <div class="card border-1">
+                                            <img class="mt-3" src="assets/github.png" id="img-size" alt="icon">
+                                            <h6>Github</h6>
+                                            <p class="p-3">
+                                                GitHub enables to collaborate on software projects and version control
+                                                code,
+                                                making it a essential tool for modern software development.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="col-12 col-md-6 col-lg-4 mt-4 d-grid">
+                                            <div class="card border-1">
+                                                <img class="mt-3" src="assets/react.jpeg" id="img-size" alt="icon">
+                                                <h6>React</h6>
+                                                <p class="p-3">
+                                                    React allow developers to create reusable UI components, manage state
+                                                    changes, and
+                                                    optimize rendering for fast and seamless user experiences. React enables
+                                                    developers
+                                                    to build dynamic, interactive, and scalable web applications with ease.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------------DIV 4------------------------ -->
+            <div class="div4">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="text-decoration-underline" id="projects" style="color: #6b3297">Portfolio</h2>
+                            <h3 class="mt-3">My Projects</h3>
+                            <div class="row mt-5">
+                                <div class="col-12 col-md-6 mt-4">
+                                    <a href="https://assignjs4-219408.surge.sh">
+                                        <img src="assets/calculator.jpg" class="project1" style="height: 150px;"
+                                            alt="Calculater-app">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-6  mt-4">
+                                    <a href="https://assignreact1-219408.vercel.app">
+                                        <img src="assets/todo.jpg" class="project2" style="height: 150px;"
+                                            alt="todo-app">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------------DIV 5------------------------ -->
+            <div class="div5 mt-4">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="text-decoration-underline" id="contact" style="color: #6b3297">Contact</h2>
+                            <h3 class="mt-4"><b>Get Connect With Me</b></h3>
+                            <p class="mt-3">As you want</p>
+                            <div class="img">
+                                <a href="https://www.instagram.com/its_me_sheikh_123/"><img src="assets/Instagram2.svg"
+                                        class="icon" alt="insta-icon"></a>
+                                <a href="https://www.linkedin.com/in/sheikh-awais-7b0466300/"><img
+                                        src="assets/linkedin2.svg" class="icon ms-4" alt="linkedin-icon"></a>
+                                <a href="https://github.com/sheikhawais7"><img src="assets/Github2.svg"
+                                        class="icon ms-4" alt="github-icon"></a>
+                                <h5 class="mt-3"><a class="tel-no" href="tel:03227992626">+92 322 7992626</a></h5>
+                                <h5><a class="email"
+                                        href="mailto:shkawaismehboob7@gmail.com">shkawaismehboob7@gmail.com</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="p-2" id="footer" style="background-color:  #6b3297;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="mb-0 text-center"><b>&copy; <span id="year"></span>.All Rights Reserved</b></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- CUSTOM JS -->
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
