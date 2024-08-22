@@ -282,8 +282,8 @@ main {
         stroke-dashoffset: -440;
     }
 }
-.project1,.project2{
-        transition: all ease 0.4s;
+.project1,.project2,#main,#nav,#footer,#about,#skills,#projects,#contact,#heading1,#heading2,#heading3{
+        transition: all ease 0.5s;
 }
 ::-webkit-scrollbar{
     display:none;
