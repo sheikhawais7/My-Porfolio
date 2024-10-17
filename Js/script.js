@@ -23,6 +23,13 @@ const nightMode = () => {
     document.getElementById("heading3").style.color = "white"
     document.getElementById("light-mode").style.display = "block"
     document.getElementById("night-mode").style.display = "none"
+    let style = document.createElement('style');
+    style.innerHTML = `
+      .menu__link::before {
+        background-color: black;
+      }
+    `;
+    document.head.appendChild(style);
 
 }
 const lightMode = () => {
@@ -39,5 +46,11 @@ const lightMode = () => {
     document.getElementById("heading3").style.color = "#6b3297"
     document.getElementById("light-mode").style.display = "none"
     document.getElementById("night-mode").style.display = "block"
-
+    let style = document.createElement('style');
+    style.innerHTML = `
+        .menu__link::before {
+        background-color: white;
+        }
+    `;
+    document.head.appendChild(style);
 }
