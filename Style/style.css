@@ -77,14 +77,36 @@ main {
 
 
 .nav__logo {
-    width: 2%;
-    margin-right: 15px;
+    width: 2.75%;
     border-radius: 25px;
+    margin-right: 15px;
 }
 
-.favicon {
-    border-radius: 25px;
+@media screen and (max-width:991px) {
+
+    .nav__logo {
+        width: 4.5%;
+    }
 }
+@media screen and (max-width:768px) {
+
+    .nav__logo {
+        width: 6.4%;
+    }
+}
+@media screen and (max-width:550px) {
+
+    .nav__logo {
+        width: 7%;
+    }
+}
+@media screen and (max-width:430px) {
+
+    .nav__logo {
+        width: 8%;
+    }
+}
+
 
 
 /* ------------------------------BUTTON------------------------------------------------------------- */
