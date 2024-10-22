@@ -41,7 +41,8 @@ main {
 
 .project1:hover,
 .project2:hover,
-.project3:hover {
+.project3:hover,
+.project4:hover {
     -ms-transform: scale(1.5);
     /* IE 9 */
     -webkit-transform: scale(1.5);
@@ -52,8 +53,9 @@ main {
 
 .project1,
 .project2,
-.project3 {
-    width: 80%;
+.project3,
+.project4 {
+    width: 70%;
     height: 150px;
 }
 
@@ -61,7 +63,8 @@ main {
 
     .project1,
     .project2,
-    .project3 {
+    .project3,
+    .project4 {
         width: 60%;
     }
 }
@@ -70,7 +73,8 @@ main {
 
     .project1,
     .project2,
-    .project3 {
+    .project3,
+    .project4 {
         width: 75%;
     }
 }
@@ -88,18 +92,21 @@ main {
         width: 4.5%;
     }
 }
+
 @media screen and (max-width:768px) {
 
     .nav__logo {
         width: 6.4%;
     }
 }
+
 @media screen and (max-width:550px) {
 
     .nav__logo {
         width: 7%;
     }
 }
+
 @media screen and (max-width:430px) {
 
     .nav__logo {
